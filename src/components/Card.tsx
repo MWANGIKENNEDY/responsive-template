@@ -16,7 +16,7 @@ const Card = () => {
 
       <div className=" p-4 flex flex-col gap-4 ">
 
-        <h3 className=" text-3xl text-gray-900 font-bold">Card Title</h3>
+        <h3 className=" text-xl text-gray-900 font-bold">Card Title</h3>
 
         <p className=" text-gray-600">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad fuga modi numquam odit doloribus autem unde ipsum minima sequi eligendi.</p>
 
