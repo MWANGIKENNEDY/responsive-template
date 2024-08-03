@@ -4,7 +4,7 @@ import React from "react";
 const Card = () => {
   return (
     <div className="w-full inline-block text-white bg-gray-200 rounded-lg">
-      <div className="relative h-80">
+      <div className="relative h-40">
         <Image
           src="https://images.unsplash.com/photo-1722189265463-557ef7d08d86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D"
           alt=""

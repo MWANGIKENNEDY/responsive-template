@@ -13,40 +13,40 @@
 @media (min-width: 475px) {
   .my-container {
     max-width: 475px;
-    background-color: red;
+
   }
 }
 @media (min-width: 640px) {
   .my-container {
     max-width: 640px;
-    background-color: blue;
+
   }
 }
 
 @media (min-width: 768px) {
   .my-container {
     max-width: 768px;
-    background-color: orange;
+
   }
 }
 
 @media (min-width: 1024px) {
   .my-container {
     max-width: 1024px;
-    background-color: yellow;
+ 
   }
 }
 
 @media (min-width: 1280px) {
   .my-container {
     max-width: 1280px;
-    background-color: cyan;
+   
   }
 }
 
 @media (min-width: 1536px) {
   .my-container {
     max-width: 1536px;
-    background-color: green;
+  
   }
 }
