@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const SocialProof = () => {
   return (
-    <div className="lg:flex">
+    <div className="flex flex-col space-y-5 lg:flex-row lg:items-center lg:gap-5 ">
       {/* image section */}
 
       <div className="relative  h-72 lg:h-96 w-full lg:w-1/2">
@@ -17,18 +17,18 @@ const SocialProof = () => {
 
       {/* text section */}
 
-      <div className=" lg:w-1/2">
+      <div className=" lg:w-1/2 flex flex-col space-y-5">
         {/* title section */}
 
         <div className="">
-          <h3 className="text-2xl font-bold  ">
+          <h3 className="text-xl font-bold  ">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </h3>
         </div>
 
         {/* list section */}
 
-        <ul>
+        <ul className=" space-y-5">
           <li className="flex gap-2 ">
             <div className=" w-16 h-16 flex justify-center items-center bg-gray-200 ">
               K

@@ -5,11 +5,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="my-container">
+    <main className="my-container pt-5">
 
    <Banner/>
 
-   <SocialProof></SocialProof>
+   <SocialProof/>
 
     </main>
   );
