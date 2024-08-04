@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <section className="h-[calc(100vh-5rem)] flex flex-col lg:flex-row-reverse lg:items-center  mx-auto  ">
-      <div className="h-1/3  md:h-1/2 lg:h-[40vh]  lg:w-1/2 relative z-10">
+    <section className="min-h-[calc(100vh-5rem)] flex flex-col lg:flex-row-reverse lg:items-center  mx-auto  ">
+      <div className="h-1/3  md:h-1/2 lg:h-[50%]  lg:w-1/2 relative z-10">
         <Image
           className=" h-full w-full object-cover "
           fill
