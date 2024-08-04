@@ -1,13 +1,15 @@
+import Banner from "@/components/Banner";
 import Card from "@/components/Card";
+import SocialProof from "@/components/SocialProof";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="my-container md:flex md:space-x-10 space-y-8 pt-4">
+    <main className="my-container">
 
-      <Card/>
-      <Card/>
-      <Card/>
+   <Banner/>
+
+   <SocialProof></SocialProof>
 
     </main>
   );
