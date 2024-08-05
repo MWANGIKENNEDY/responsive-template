@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="my-container pt-5">
+    <main className="my-container pt-5  space-y-10">
 
    <Banner/>
 

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const SocialProof = () => {
   return (
-    <div className="flex flex-col space-y-5 lg:flex-row lg:items-center lg:gap-5 ">
+    <div className="flex flex-col space-y-5 lg:flex-row lg:items-center lg:gap-5   ">
       {/* image section */}
 
       <div className="relative  h-72 lg:h-96 w-full lg:w-1/2">

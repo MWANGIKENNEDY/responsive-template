@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
+
+import { RiHeartFill } from "@remixicon/react";
 
 const Banner = () => {
   return (
-    <section className="min-h-[calc(100vh-5rem)] grid grid-rows-[30%,70%] md:grid-rows-[40%,60%] lg:grid-cols-2 lg:grid-rows-1  mx-auto lg:items-center ">
+    <section className="min-h-[calc(100vh-5rem)] grid grid-rows-[30%,70%] md:grid-rows-[40%,60%] lg:grid-cols-2 lg:grid-rows-1  mx-auto lg:items-center  ">
       <div className=" h-full w-full lg:h-[50vh] relative z-10 bg-red-400 order-1 lg:order-2">
         <Image
           className=" h-full w-full object-cover "
@@ -14,7 +16,8 @@ const Banner = () => {
       </div>
       <div className="flex  py-3 flex-col gap-5 justify-center px-3  lg:pr-20 order-2 lg:order-1 ">
         <h1 className="text-3xl font-bold text-gray-800 lg:text-5xl capitalize">
-          Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.{" "}
+    
         </h1>
         <h3 className="text-gray-500">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum,
@@ -30,7 +33,7 @@ const Banner = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;
